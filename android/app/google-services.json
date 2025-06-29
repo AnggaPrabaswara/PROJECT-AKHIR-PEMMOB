@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553442323936",
+    "project_id": "app-melaly",
+    "storage_bucket": "app-melaly.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553442323936:android:53fdc2c9f652b567dbcf85",
+        "android_client_info": {
+          "package_name": "com.example.melaly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg-chTUVepJ6bazQRClkgChRN3VHN5nfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
