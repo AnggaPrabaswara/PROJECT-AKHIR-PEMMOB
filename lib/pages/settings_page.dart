@@ -142,7 +142,7 @@ class _SettingsPageState extends State<SettingsPage> {
                             children: [
                               Icon(_iconForKategori(k), color: primaryColor, size: 20),
                               const SizedBox(width: 8),
-                              Text(k),
+                              Text(k, style: TextStyle(color: Theme.of(context).brightness == Brightness.dark ? Colors.white : Colors.black)),
                             ],
                           ),
                         )).toList(),

@@ -287,7 +287,7 @@ class _AddWisataPageState extends State<AddWisataPage> {
                 children: [
                   DropdownButtonFormField<String>(
                     value: _kategori,
-                    items: _kategoriList.map((k) => DropdownMenuItem(value: k, child: Text(k))).toList(),
+                    items: _kategoriList.map((k) => DropdownMenuItem(value: k, child: Text(k, style: TextStyle(color: Colors.black)))).toList(),
                     onChanged: (v) => setState(() => _kategori = v),
                     decoration: _buildInputDecoration(label: 'Kategori', icon: Icons.category_outlined),
                     validator: (v) => v == null ? 'Pilih kategori' : null,
